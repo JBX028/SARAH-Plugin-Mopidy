@@ -1,0 +1,20 @@
+﻿<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleMopidy" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+
+  <rule id="ruleMopidy" scope="public">
+    <tag>out.action=new Object(); </tag>
+    <item weight="2">Jarvis</item>
+    <one-of>
+      <item>musique suivante<tag>out.action.type="next"</tag></item>
+      <item>musique précédente<tag>out.action.type="prev"</tag></item>
+      <item>met en pause la musique<tag>out.action.type="pause"</tag></item>
+	  <item>arrête la musique<tag>out.action.type="stop"</tag></item>
+      <item>reprends la musique<tag>out.action.type="play"</tag></item>
+	  <item>monte le volume<tag>out.action.type="inc_vol"</tag></item>
+	  <item>baisse le volume<tag>out.action.type="dec_vol"</tag></item>
+    </one-of>
+    <tag>out.action._attributes.tts = "Je m'en occupe"</tag>
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/mopidy";</tag>
+  </rule>  
+
+</grammar>
+ 

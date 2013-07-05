@@ -1,0 +1,10 @@
+{
+  "modules" : { 
+    "mopidy":     {
+      "description": "Commande Vocale pour Mopidy Spotify",
+      "version"    : "1.0",
+	  "host"       : "musicbox",
+	  "port"       : "6600"
+    }
+  }
+}
