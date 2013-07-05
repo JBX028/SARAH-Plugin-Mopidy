@@ -4,7 +4,7 @@ Mopidy client for SARAH
 INTRODUCTION
 ------------
 
-How to control Spotify with [SARAH](http://encausse.wordpress.com/s-a-r-a-h/s-a-r-a-h-documentation/)
+How to control Spotify with [SARAH](http://encausse.wordpress.com/s-a-r-a-h/s-a-r-a-h-documentation/) using Mopidy
 
 PREREQUISITES
 -------------
