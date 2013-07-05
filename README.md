@@ -17,6 +17,11 @@ Install one of the following version of mopidy :
 If you choose a Raspberry PI, a usb sound card is almost required to have enough quality.
 Personally, I purchased [iMic](http://store.griffintechnology.com/catalog/product/view/_ignore_category/1/id/623/s/imic/)
 
+Install this plugin into `/pluggin`
+
+Download this [zip](https://docs.google.com/file/d/0B9GNu6yI-oQkMGxWUFFCckptMzQ/edit?usp=sharing) and unzip the content into this plugin directory at the same level than `Lib`
+
+
 CONFIGURATION
 -------------
 
